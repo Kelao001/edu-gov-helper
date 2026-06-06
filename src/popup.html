@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>&#20013;&#21326;&#25945;&#32946;&#32593;&#21457;&#31295;&#21161;&#25163;</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <label for="message">QQ &#31295;&#20214;&#28040;&#24687;</label>
+      <textarea id="message" placeholder="&#31896;&#36148;&#65306;&#26631;&#39064;&#12289;&#31295;&#20214;&#38142;&#25509;&#12289;&#20013;&#21326;&#25945;&#32946;&#32593;"></textarea>
+
+      <div class="actions">
+        <button id="start" type="button">&#24320;&#22987;&#36716;&#36733;</button>
+        <button id="copy" type="button" class="secondary">&#25235;&#21462;&#21457;&#24067;&#38142;&#25509;</button>
+      </div>
+
+      <section class="status">
+        <span id="statusText">Idle</span>
+        <span id="errorText"></span>
+      </section>
+
+      <textarea id="result" readonly placeholder="&#21457;&#24067;&#21518;&#30340;&#22238;&#20256;&#28040;&#24687;&#20250;&#26174;&#31034;&#22312;&#36825;&#37324;"></textarea>
+    </main>
+    <script src="core.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

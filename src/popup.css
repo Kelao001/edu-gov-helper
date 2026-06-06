@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light;
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  width: 360px;
+  background: #f7f7f4;
+  color: #202124;
+}
+
+main {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+label {
+  font-weight: 600;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+  border: 1px solid #c9c9c3;
+  border-radius: 6px;
+  padding: 9px;
+  line-height: 1.5;
+  font: inherit;
+  background: #fff;
+}
+
+#result {
+  min-height: 86px;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+button {
+  height: 34px;
+  border: 0;
+  border-radius: 6px;
+  background: #e86b18;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #275d8c;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.status {
+  min-height: 38px;
+  display: grid;
+  gap: 4px;
+  align-content: center;
+  padding: 8px;
+  border: 1px solid #d9d6cc;
+  border-radius: 6px;
+  background: #fffdf7;
+}
+
+#statusText {
+  color: #1f4f75;
+}
+
+#errorText {
+  color: #b3261e;
+}

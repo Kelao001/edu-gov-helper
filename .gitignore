@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Logs and runtime state
+logs/
+*.log
+*.pid
+
+# Browser automation profiles and test output
+.playwright-user-data/
+playwright-report/
+test-results/
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and package output
+dist/
+build/
+out/
+*.zip
+*.crx
+*.pem
+
+# Temporary debug snapshots
+debug-*.html
+
+# Local third-party binaries/tools
+tools/*.exe
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# npm cache noise
+.npm/

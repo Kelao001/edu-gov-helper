@@ -1,0 +1,15 @@
+{
+  "name": "codex-edugov-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser extension helper for reposting cnmtpt articles to edu-gov.cn.",
+  "scripts": {
+    "mobile": "node src/mobile_service.js",
+    "public": "powershell -ExecutionPolicy Bypass -File .\\start_public.ps1",
+    "stop-public": "powershell -ExecutionPolicy Bypass -File .\\stop_public.ps1",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
