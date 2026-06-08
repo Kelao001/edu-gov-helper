@@ -100,4 +100,3 @@ npm.cmd run mobile
 - “抓取发布链接”按钮仍保留，作为需要重新复制当前稿件链接时的备用入口；它也会按当前任务标题去中华教育网官网搜索，不再依赖后台列表。
 - 点击“开始转载”后，浏览器可能会因为打开/切换页面而自动关闭扩展弹窗，这是正常现象；任务会在后台继续跑，图标角标会显示 `RUN`、`DONE` 或 `ERR`，重新打开扩展会恢复状态和回传消息。
 - 正文写入逻辑优先支持 UEditor、TinyMCE、CKEditor、KindEditor、iframe 富文本、contenteditable，最后才同步 textarea。
-- `D:\codex\codex-edugov` 当前仍无法写入，所以项目暂时放在用户目录。
